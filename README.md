@@ -33,7 +33,7 @@
 
 ## 広告枠
 
-EthicalAds（プライバシー配慮型）の承認後に差し替え予定。
+Google AdSense の承認後に差し替え予定。
 
 ---
 
@@ -44,7 +44,7 @@ EthicalAds（プライバシー配慮型）の承認後に差し替え予定。
 - RequiFlow（要件定義ツール）からリブランド
 - 訴求を「AIアプリビルダーの前工程」に変更
 - 広告枠（左右縦長・下部横長）を配置
-- EthicalAds 申請予定
+- Google AdSense 申請予定
 - Cloudflare Pages への移行作業中
 - バックエンドをOpenAI → Claude APIに切り替え
 
@@ -81,7 +81,7 @@ It organizes your goals, users, features, admin needs, and constraints into a cl
 
 ## Ads
 
-Will be replaced with EthicalAds (privacy-friendly) after approval.
+Will be replaced with Google AdSense after approval.
 
 ---
 
@@ -92,6 +92,6 @@ Will be replaced with EthicalAds (privacy-friendly) after approval.
 - Rebranded from RequiFlow (requirements definition tool)
 - Repositioned as "the step before AI app builders"
 - Added ad slots (left/right sidebar + bottom banner)
-- EthicalAds application pending
+- Google AdSense application pending
 - Migrating to Cloudflare Pages
 - Switched backend from OpenAI to Claude API
