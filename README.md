@@ -1,3 +1,8 @@
+[日本語](#日本語) | [English](#english)
+
+---
+
+<a name="日本語"></a>
 # SpecBridge
 
 > AIに作らせる前に、AIに伝わる仕様書を。
@@ -26,27 +31,9 @@
 - バックエンド：Cloudflare Pages Functions
 - AI：Claude API（Anthropic claude-sonnet-4-6）
 
-## セットアップ（Cloudflare Pages）
-
-1. このリポジトリをCloudflare Pagesに接続
-2. Build command：なし（空欄）
-3. Build output directory：`/`
-4. 環境変数に `ANTHROPIC_API_KEY` を設定
-
-```text
-ANTHROPIC_API_KEY=sk-ant-xxxxxxxx
-```
-
-任意（デフォルト：claude-sonnet-4-6）：
-
-```text
-ANTHROPIC_MODEL=claude-sonnet-4-6
-```
-
 ## 広告枠
 
-EthicalAds（プライバシー配慮型）の承認後に差し替え予定。  
-現在はプレースホルダーを表示中。
+EthicalAds（プライバシー配慮型）の承認後に差し替え予定。
 
 ---
 
@@ -60,3 +47,51 @@ EthicalAds（プライバシー配慮型）の承認後に差し替え予定。
 - EthicalAds 申請予定
 - Cloudflare Pages への移行作業中
 - バックエンドをOpenAI → Claude APIに切り替え
+
+---
+
+<a name="english"></a>
+# SpecBridge
+
+> Build your spec before you build your app.
+
+A bridge between non-engineers and AI app builders.  
+Answer 5 questions to generate a spec you can paste directly into BASE44 / Bolt / Lovable / Cursor.
+
+## Overview
+
+"I want AI to build my app, but I don't know what to tell it."
+
+SpecBridge is a pre-step tool for non-engineers.  
+It organizes your goals, users, features, admin needs, and constraints into a clear spec and a ready-to-paste prompt.
+
+## Features
+
+- 5-question flow to structure your requirements
+- Auto-generates app summary, target users, key screens, and risk checklist
+- Outputs a prompt you can paste directly into any AI app builder
+- Ctrl+Enter to submit answers quickly
+- Works without an API key via fallback mode
+
+## Tech Stack
+
+- Frontend: HTML / CSS / JavaScript (no build step)
+- Backend: Cloudflare Pages Functions
+- AI: Claude API (Anthropic claude-sonnet-4-6)
+
+## Ads
+
+Will be replaced with EthicalAds (privacy-friendly) after approval.
+
+---
+
+## Activity Log
+
+### 2026-05-18
+- Launched SpecBridge alpha
+- Rebranded from RequiFlow (requirements definition tool)
+- Repositioned as "the step before AI app builders"
+- Added ad slots (left/right sidebar + bottom banner)
+- EthicalAds application pending
+- Migrating to Cloudflare Pages
+- Switched backend from OpenAI to Claude API
